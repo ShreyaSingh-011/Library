@@ -188,7 +188,7 @@ input{
 .book-section{
     box-sizing: border-box;
     background-color: lightgray;
-    min-height: 100px;
+    min-height: 1000px;
     display: flex;
     flex-wrap: wrap;
     padding: 40px;   
