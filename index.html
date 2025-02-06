@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="icon" type="image/png" href="images/books.png">
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <div class="workspace">
+        <div class="header">
+            <div class="leftside">
+            <div class="header-img">
+                <img src="images/lib.svg" alt="library" id="img">            
+            </div>
+            <div class="heading">
+                Library
+            </div>
+            </div>
+
+        
+        <div class="rightside">
+            <div class="add-btn">
+                <button id="bttn">+ Add Book</button>
+            </div>
+        </div>
+        </div>
+
+        
+
+        <!-- Book section -->
+         <div class="book-section">
+        </div>
+
+
+        <!-- Footer -->
+         <div class="footer">
+            <div class="copyright">
+                <span> Copyright &#169 Shreya Singh 2025</span>
+            </div>
+         </div>
+
+
+
+
+
+         <div class="backdrop closed">
+            <div class="new-book-box">
+                <div class="pop-up-heading">New Book</div>
+                <form id="add-book-form">
+                    <div class="book-input-box">
+                        <div class="input-div">
+                            <input type="text" name="title" placeholder="Title" id="title" required>
+                        </div>
+                        <div class="input-div">
+                            <input type="text" name="author" placeholder="Author" id="author" required>
+                        </div>
+                        <div class="page-count">
+                        <input type="number" name="page" min="1" id="pages"
+                        placeholder="PageCount" required>
+                        <div class="read-btn read-btn-unread">Read</div>
+                        </div>
+                    </div>
+                    <div class="create-btn-container">
+                        <button class="create-btn">Create</button>
+                    </div>
+                </form>
+                <div class="close-btn">
+                    <img src="images/close.svg" alt="cross" id="close">
+                </div>
+            </div>
+         </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
